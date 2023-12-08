@@ -60,8 +60,3 @@ class TelloIPScaner:
             print("Error running Nmap:", e)
             print("Nmap Output (stderr):")
             print(e.stderr)
-
-if __name__ == "__main__":
-    # Example usage without specifying IP address
-    scanner = NmapScanner()
-    scanner.run_scan()
