@@ -6,7 +6,7 @@ import ipaddress
 __version__ = '1.0.0'
 __author__ = 'Teeraphat Kullanankanjana'
 
-class TelloIPScaner:
+class TelloIPScanner:
     def __init__(self, target=None, subnet="/24", debug=True):
         self.subnet = subnet
         self.debug = debug
